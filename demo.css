@@ -1,0 +1,201 @@
+body{
+    font-family: Montserrat;
+    color: #333;
+    height: 500px;
+
+}
+button, a :hover{
+    color: #34b79d;
+   
+}
+
+.nav .nav-left{
+background-color: #fff;
+border-right: 1px;
+border-color: #333;
+}
+
+.icon-nav a{
+    display: inline-block;
+    padding: 6px;
+    align-items: center;
+    line-height: 86px;
+    color: #333;
+
+}
+.nav-right{
+    display: block;
+}
+.header .intro_content>button{
+    font-size: 20px;
+    
+}
+
+/* header */
+
+
+
+.header .intro_content_main > button{
+    font-size: 30px;
+}
+.infor_return .row_return p {
+    
+    font-size: 13px;
+   }
+ /* main-body */
+ .main_body .top_interesting h5{
+    font-size: 11px;
+    color: rgb(135, 135, 136);
+ }
+ .bodymain_card .card-body span{
+   
+    font-size: 19px;
+   }
+   .bodymain_card .card-body a{
+    
+    font-size: 15px; 
+   }
+ /* footer */
+ .footer span>i{
+    font-size: 1.2rem;
+    padding: 0 10px;
+ }
+
+
+ 
+ /* responsive */
+ /* tablet */
+ @media screen and (max-width: 769px){
+    .nav-left .Buy{
+        margin: 0;
+    }
+    .nav-right{
+        display: none;
+    }
+    .header .intro_content>button{
+        font-size: 0.5rem;
+    }
+   
+  body h1{
+    font-size: 1.5rem;
+   }
+  body h3{
+    font-size: 1rem;
+   }
+   body h5{
+    font-size: 0.5rem;
+   }
+   body h6{
+    font-size: 0.5rem;
+   }
+   .infor_return button{
+    font-size: 0.5rem;
+   }
+   .bodymain_card .card-body p{
+    font-size: 0.7rem;
+   }
+   .bodymain_card .card-body span{
+    font-size: 0.5rem;
+    
+   }
+   .bodymain_card .card-body i{
+    font-size: 0.5rem;
+   }
+  
+   .bodymain_card .content-card>h6{
+     font-size: 1.5rem;
+   }
+   .bodymain_card .content-card>p{
+    font-size: 1rem;
+  }
+   .mirum_text{
+    font-size: 1rem;
+   }
+   .footer h6{
+    font-size: 1rem;
+   }
+   .footer .icon_social>i{
+    padding: 5px 2px;
+
+   }
+   .footer .contact span{
+    display: block;
+    align-items: start;
+    padding-bottom: 5px;
+   }
+   
+   
+    
+ }
+
+ /* mobile */
+ @media screen and (max-width: 426px){
+    .nav-left .Buy{
+        margin: 0;
+    }
+    .nav-right{
+        display: none;
+    }
+    .header .intro_content>button{
+        font-size: 0.2rem;
+        margin-bottom: 15px;
+    }
+   
+  body h1{
+    font-size: 1rem;
+   }
+  body h3{
+    font-size: 0.5rem;
+   }
+   body h5{
+    font-size: 0.3rem;
+   }
+   body h6{
+    font-size: 1rem;
+   }
+   .infor_return button{
+    font-size: 0.5rem;
+   }
+   .infor_return .row_return p {
+    font-size: 0.5rem;
+   
+   }
+   .bodymain_card .card-body p{
+    font-size: 1rem;
+   }
+   .bodymain_card .card-body h5{
+    font-size: 1rem;
+   }
+   .bodymain_card .card-body span{
+    font-size: 1rem;
+    
+   }
+   .bodymain_card .card-body i{
+    font-size: 1rem;
+   }
+   .bodymain_card .card-body a{
+    font-size: 0.7rem;
+     
+   }
+   
+   .mirum_text{
+    font-size: 0.5rem;
+   }
+  
+
+   .footer h6{
+    font-size: 1rem;
+   }
+   .footer .icon_social>i{
+    padding: 5px 2px;
+
+   }
+   .footer .contact span{
+    display: block;
+    align-items: start;
+    padding-bottom: 5px;
+   }
+   
+   
+    
+ }
